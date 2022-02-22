@@ -54,6 +54,7 @@ color: #f9faf8;
     background: #3882f6;
     font-weight: 700;
     border-radius:7px;
+    font-size: 22px;
 }
 .header-content img{
     width:100%;
@@ -83,12 +84,12 @@ color: #f9faf8;
 .quote-section{
     background: #e5e7eb;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 .quote-section p{
     font-size: 36px;
     font-style: italic;
-    font-weight:200;
+    font-weight:300;
 }
 .quote-section span{
     font-weight:bold;
@@ -96,4 +97,45 @@ color: #f9faf8;
     font-size:20px;
     float:right;
     margin-top: 20px;
+}
+.cta-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.cta-box{
+    background-color: #3882f6;
+    padding-left:15%;
+    padding-right: 15%;
+    padding-top:40px;
+    padding-bottom:40px;
+    align-items: center;
+    color: #fff;
+    line-height: 0.8em;
+    border-radius:7px;
+}
+.cta-content{
+    flex-grow:2;
+}
+.cta-btn{
+    flex-grow: 1;
+    text-align:center;
+}
+.cta-btn a{
+    color: #fff;
+    text-decoration: none;
+    border: solid 3px#fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    border-radius:7px;
+    font-size:22px;
+}
+.footer{
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #FFf;
 }
