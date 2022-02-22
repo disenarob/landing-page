@@ -1,3 +1,99 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+.top-bar, .header-content, .pizza-flex, .cta-box{
+    display: flex;
+}
+.header, .footer{
+    background-color: #1F2937;
+}
+.header, .information-section, .quote-section, .cta-section, .footer{
+    padding-left: 15%;
+    padding-right:15%;
+}
+.top-bar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+.logo{
+font-size:24px;
+font-weight: 900;
+color: #f9faf8;
+}
+
+.menu a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left:30px;
+}
+.header-content{
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+.hero-text h1{
+    font-weight:900;
+    font-size:48px;
+    color:#f9faf8;
+}
+.hero-text p, .hero-text a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-text p{
+    margin-bottom: 40px;
+}
+.hero-text a{
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background: #3882f6;
+    font-weight: 700;
+    border-radius:7px;
+}
+.header-content img{
+    width:100%;
+    padding:20px;
+}
+
+.information-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #1f2937;
+}
+.information-section h2{
+    font-weight: 900;
+    font-size: 36px;
+}
+.pizza-container img{
+    width: 100%;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.pizza-container{
+    padding:20px;
+    font-size: 18px;
+}
+.quote-section{
+    background: #e5e7eb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.quote-section p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:200;
+}
+.quote-section span{
+    font-weight:bold;
+    text-align: right;
+    font-size:20px;
+    float:right;
+    margin-top: 20px;
+}
